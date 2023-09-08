@@ -6,12 +6,12 @@ public class Main {
     public static void main(String[] args) {
 
         Student student1 = new Student();
-        student1.setId(1);
+        student1.setId(1314);
         student1.setName("Max Mustermann");
         student1.setAddress("Musterstraße 123");
         student1.setGrade(4);
 
-        Teacher teacher1 = new Teacher(1, "Herrmann", "Mathematik");
+        Teacher teacher1 = new Teacher(16, "Herrmann", "Mathematik");
 
         Course course = new Course();
         course.setId(1);
